@@ -1,0 +1,48 @@
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+
+
+.app-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 20px;
+}
+
+.pie-chart-container {
+  text-align: center;
+}
+
+.pie-chart {
+  border-radius: 50%;
+}
+
+legend-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.legend-label {
+  color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .app-container {
+    grid-template-columns: 1fr;
+  }
+}

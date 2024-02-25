@@ -1,0 +1,56 @@
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+.elearning-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.elearning-form h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.elearning-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.elearning-form input,
+.elearning-form select,
+.elearning-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.elearning-form .topics-checkboxes,
+.elearning-form .experience-radio {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.elearning-form .topics-checkboxes label,
+.elearning-form .experience-radio label {
+  margin-right: 20px;
+}
+
+.elearning-form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .elearning-form {
+    max-width: 100%;
+  }
+}

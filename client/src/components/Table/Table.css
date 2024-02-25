@@ -1,0 +1,30 @@
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+.elearning-table-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #000000;
+    padding: 12px;
+  }
+  
+  th {
+    background-color: #887e7e;
+    font-weight: bold;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    th, td {
+      padding: 8px;
+    }
+  }
+  
